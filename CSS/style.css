@@ -79,9 +79,11 @@ main {
     padding-left: 37px;
 
 }
-.My-failures-description{
+
+.My-failures-description {
     text-align: left;
 }
+
 .My-failures-description p {
     color: #444343;
     font-size: 16px;
@@ -92,13 +94,54 @@ main {
 }
 
 .My-failures-description li {
-    color:#444343;
+    color: #444343;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 
 }
-.My-failures-description img{
+
+.My-failures-description img {
     margin-bottom: -5px;
 
+}
+
+/* My Plans section */
+.My-Plans-section {
+    margin: 0 230px;
+}
+
+.my-plans-title {
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.my-plans-description {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    text-align: center;
+}
+
+.info>img {
+    max-width: 95px;
+}
+
+.info h3 {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.info p {
+    color:#737272;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
 }
