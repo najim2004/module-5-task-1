@@ -48,9 +48,6 @@ header {
 
 /* main style  */
 /* My failures of previous year section */
-main {
-    max-width: 1400px;
-}
 
 .My-failures {
     display: flex;
@@ -126,6 +123,7 @@ main {
 
 .info {
     text-align: center;
+
 }
 
 .info>img {
@@ -134,14 +132,115 @@ main {
 
 .info h3 {
     color: #151414;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     margin-bottom: 0;
 }
 
 .info p {
-    color:#737272;
-    font-size: 25px;
+    color: #737272;
+    font-size: 20px;
     font-weight: 500;
     margin-top: 10px;
+}
+
+/* Awlay-skeep section  */
+.Awlay {
+    border-radius: 8px;
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 130px 230px;
+    padding: 50px 0 59px 64px;
+}
+
+.skeep h3 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0;
+    width: 459px;
+}
+
+.skeep>button {
+    background-color: #FFF;
+    color: #F15B22;
+    margin-top: 24px;
+
+
+}
+
+/* footer section  */
+
+footer {
+    background-color: #151414;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    width: 50%;
+}
+
+.future {
+    margin-left: 230px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    margin-right: 350px;
+    color: #FFF;
+}
+
+.future h3 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.future p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: -30px;
+}
+
+.subscribe-section {
+    margin: 130px 230px 243px 0;
+    padding-top: 30px;
+}
+
+.subscribe-section h3 {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.subscribe-section input {
+    color: var(--Dark-07, #F3F3F3);
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    height: 70px;
+    padding-left: 30px;
+    border: 2px solid #FFF;
+    background: var(--Dark-01, #151414);
+    background-color: ;
+    border-radius: 8px;
+    margin-top: 31px;
+}
+
+.subscribe-section button {
+    background-color: #FFF;
+    color: #F15B22;
+    margin-top: 24px;
+    border-radius: 8px;
 }
